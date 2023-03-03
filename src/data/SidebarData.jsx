@@ -7,13 +7,13 @@ import Layout from '../assets/layout.svg'
 
 export const SidebarData=[
     {
-        title: "Statistics",
+        title: "Insights",
         path: "/",
         icon: Statistics,
       },
       {
-        title: "Layout",
-        path: "/layout",
+        title: "Zones",
+        path: "/zones",
         icon: Layout,
       },
       {

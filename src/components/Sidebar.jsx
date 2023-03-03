@@ -10,7 +10,6 @@ const Sidebar = () => {
     const activeIcon = 'w-[22px]'
     const normalIcon = 'w-[28px]'
 
-    const [state, setState] = useState("Statistics");
   return (
     <React.Fragment>
     <div className='w-[250px] p-6'>
