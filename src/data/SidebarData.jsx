@@ -22,8 +22,8 @@ export const SidebarData=[
         // icon: <FaIcons.FaPhp />,
       },
       {
-        title: "Java",
-        path: "/java",
+        title: "Admin",
+        path: "/admin",
         // icon: <FaIcons.FaJava />,
       },
      

@@ -10,7 +10,7 @@ const MainPage = () => {
           <div className=''>
                 <Sidebar/>
             </div>
-          <div className="bg-[#F4F4FE] w-full">
+          <div className="bg-[#F4F4FE] w-full pr-8 pl-8 ">
             <Navbar />
             <NavPage/>
           </div>

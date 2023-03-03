@@ -9,7 +9,7 @@ const Sidebar = () => {
 
   return (
     <React.Fragment>
-    <div className='w-[250px] mt-6 p-6'>
+    <div className='w-[250px] p-6'>
         <div>
           <img src={arrositLogo} alt="" className='w-[150px]'/>
         </div>

@@ -1,19 +1,15 @@
 import React from "react";
-// import {BsBook} from 'react-icons/bs'
+import Input from "../shared/Input";
+import Profile from "../shared/Profile";
 
 
 const Navbar = () => {
   return (
     <React.Fragment>
       <section>
-        <div className='bg-[#3F4F4FE] h-20 w-full flex items-center pl-10 space-x-4'>
-            <div>
-            {/* <BsBook className='text-white text-4xl'/> */}
-            </div>
-
-            <div>
-            <p className='text-black text-3xl'>Nav</p>
-            </div>
+        <div className='bg-[#3F4F4FE] border-b border-gray-300 h-[100px] w-full flex items-center  justify-between '>
+            <Input />
+            <Profile />
         </div>
       </section>
     </React.Fragment>
