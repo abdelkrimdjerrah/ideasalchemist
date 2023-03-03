@@ -1,29 +1,37 @@
-import { useState } from "react";
-import Logo from '../assets/arrositHorizontal.svg' 
-import house from '../assets/house.svg' 
-import RouteElement from "./RouteElement"
+import React from 'react'
+import {SidebarData} from '../data/SidebarData'
+import { NavLink } from "react-router-dom";
 
-
-export default function Sidebar() {
-  const [active, setActive] = useState("title1");
-  function handleSubmit(e) {
-    alert(e.target)
-  }
+const Sidebar = () => {
+    const activeLink = 'hover:bg-[#F4F4FE] text-white mt-7 pl-7 w-full h-14 flex justify-start items-center text-2xl space-x-1 font-bold bg-[#2367FF]'
+    const normalLink = 'hover:bg-[#F4F4FE] pl-7 mt-7 w-full h-14 flex justify-start items-center text-2xl space-x-1 font-bold'
 
   return (
-    <div className='sidebar'>
-        <div className="sidebar_elements">
-            <div className="sidebar_logo">
-                <img src={Logo} alt="" />
-            </div>
-            <div className="sidebar_router">
-                <RouteElement Icon={house} Active={active === "title1"} Name="title1"/>
-                <RouteElement Icon={house} Active={active === "title2"} Name="title2"/>
-                <RouteElement Icon={house} Active={active === "title333333"} Name="title333333"/>
-                <RouteElement Icon={house} Active={active === "title4"} Name="title4"/>
-                <RouteElement Icon={house} Active={active === "title5"} Name="title5"/>
-            </div>
-        </div>
-    </div>
+    <React.Fragment>
+    <section>
+      <div className="text-black">
+          {
+               SidebarData.map((item, index)=>{
+                return(
+                    <div key={index}>
+                        <NavLink to={item.path}
+                        className={({ isActive }) =>
+                        isActive ? activeLink: normalLink}
+                      
+                         >
+                        {/* <span>{item.icon}</span> */}
+                        <span>{item.title}</span>
+                        </NavLink>
+                        
+                    </div>
+                )
+              })
+          }
+  
+      </div>
+    </section>
+  </React.Fragment>
   )
 }
+
+export default Sidebar

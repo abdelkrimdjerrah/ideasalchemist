@@ -1,14 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
-import Dashboard from './pages/Dashboard'
+import React from "react";
+import "./App.css";
+import MainPage from "./components/MainPage";
+import { BrowserRouter } from "react-router-dom";
+
 function App() {
   return (
-    <div className='app'>
-      <Dashboard />
-      <div>
-        fff
-      </div>
-    </div>
+    <React.Fragment>
+      <BrowserRouter>
+        <MainPage />
+      </BrowserRouter>
+    </React.Fragment>
   );
 }
 

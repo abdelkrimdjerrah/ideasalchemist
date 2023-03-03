@@ -1,70 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-*{
-  margin: 0;
-  padding: 0;
-  font-family: 'Poppins', sans-serif;
-}
-.dashboard{
-  display: flex;
-  background-color: #f7f7fa;
-}
-
-.sidebar{
-  background-color: white;
-  width: 230px;
-  height: 100vh;
-  position: sticky;
-    top: 0;
-    left: 0;  
-
-}
-.sidebar_elements{
-  margin-top: 30px;
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   align-items: center;
-   gap: 50px;
-   
-}
-.sidebar_logo img{
-  width: 130px;
-}
-.route_icon{
-  width: 20px;
-}
-.route_elements{
-  display: flex;
-  width: 150px;
-  flex-direction: row;
-  gap: 12px;
-  cursor: pointer;
-  align-items: center;
-  padding: 11px 0px 6px 20px;
-  border-radius: 10px;
-}
-.route_elements.active{
-  background-color: #2367FF;
-  color: white;
-}
-.route_elements:hover{
-  background-color: #f7f7fa;
-}
-.route_elements.active img{
-  filter: invert(100%);
-}
-.route_name{
-  font-size: 16px;
-  font-weight: 600;
-  margin-bottom: 5px;
-}
-.route_icon img{
-  width: 16px;
-}
-.sidebar_router{
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-  align-items: left;
+centered{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
