@@ -7,3 +7,6 @@
 *{
     font-family: 'Poppins', sans-serif;
 }
+.activatedLink img{
+    filter: invert(100%);
+}

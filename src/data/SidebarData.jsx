@@ -1,30 +1,35 @@
-// import * as FaIcons from "react-icons/fa";
+import Profile from '../assets/profile.svg'
+import Users from '../assets/users.svg'
+import Map from '../assets/map.svg'
+import Statistics from '../assets/statistics.svg'
+import Layout from '../assets/layout.svg'
+
 
 export const SidebarData=[
     {
-        title: "Home",
+        title: "Statistics",
         path: "/",
-        // icon: <FaIcons.FaHome />,
+        icon: Statistics,
       },
       {
-        title: "Git",
-        path: "/git",
-        // icon: <FaIcons.FaGit />,
+        title: "Layout",
+        path: "/layout",
+        icon: Layout,
       },
       {
-        title: "CSS",
-        path: "/css",
-        // icon: <FaIcons.FaCss3Alt />,
+        title: "Map",
+        path: "/map",
+        icon: Map,
       },
       {
-        title: "Php",
-        path: "/php",
-        // icon: <FaIcons.FaPhp />,
+        title: "Users",
+        path: "/users",
+        icon: Users,
       },
       {
-        title: "Admin",
-        path: "/admin",
-        // icon: <FaIcons.FaJava />,
+        title: "Profile",
+        path: "/profile",
+        icon: Profile,
       },
      
 ]

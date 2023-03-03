@@ -1,13 +1,13 @@
 import React from 'react'
 
-const Css = () => {
+const Profile = () => {
   return (
     <React.Fragment>
     <section>
-      <div className=" text-4xl h-screen">This is css Page</div>
+      <div className=" text-4xl h-screen">This is Profile Page</div>
     </section>
   </React.Fragment>
   )
 }
 
-export default Css
+export default Profile

@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Git = () => {
+const Layout = () => {
   return (
     <React.Fragment>
     <section>
@@ -10,4 +10,4 @@ const Git = () => {
   )
 }
 
-export default Git
+export default Layout

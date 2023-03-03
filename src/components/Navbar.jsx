@@ -1,6 +1,6 @@
 import React from "react";
 import Input from "../shared/Input";
-import Profile from "../shared/Profile";
+import Personalinfo from "../shared/Personalinfo";
 
 
 const Navbar = () => {
@@ -9,7 +9,7 @@ const Navbar = () => {
       <section>
         <div className='bg-[#3F4F4FE] border-b border-gray-300 h-[100px] w-full flex items-center  justify-between '>
             <Input />
-            <Profile />
+            <Personalinfo />
         </div>
       </section>
     </React.Fragment>

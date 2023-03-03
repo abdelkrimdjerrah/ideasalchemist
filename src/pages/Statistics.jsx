@@ -1,13 +1,13 @@
 import React from 'react'
 
-const Php = () => {
+const Statistics = () => {
   return (
     <React.Fragment>
     <section>
-      <div className=" text-4xl h-screen">This is Php Page</div>
+      <div className=" text-4xl h-screen">This is Statistics</div>
     </section>
   </React.Fragment>
   )
 }
 
-export default Php
+export default Statistics

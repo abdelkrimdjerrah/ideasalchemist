@@ -91,7 +91,6 @@ export default function Table() {
   return (
     <div>
         <div className="mt-6">
-	<h1 className="text-lg  font-medium">Users : </h1>
 	<div className="flex flex-col mt-6">
 		<div className="-my-2 overflow-x-auto sm:-mx-6 lg:-mx-8">
 			<div className="py-2 align-middle inline-block min-w-full sm:px-6 lg:px-8">

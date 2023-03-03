@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Profile() {
+export default function Personalinfo() {
   return (
     <div className="flex items-center space-x-2">
       {/* avatar */}

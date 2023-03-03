@@ -1,13 +1,13 @@
 import React from 'react'
 
-const Home = () => {
+const Map = () => {
   return (
     <React.Fragment>
     <section>
-      <div className=" text-4xl h-screen">This is Home Page</div>
+      <div className=" text-4xl h-screen">This is css Page</div>
     </section>
   </React.Fragment>
   )
 }
 
-export default Home
+export default Map
