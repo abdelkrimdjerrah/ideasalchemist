@@ -6,26 +6,16 @@ import Sidebar from './Sidebar'
 const MainPage = () => {
   return (
     <React.Fragment>
-      {/* heading section */}
-      <section>
-        <div>
-          <Navbar />
-        </div>
-      </section>
-
-      {/* sidebar section */}
-      <section>
-        <div className='grid grid-cols-12'>
-          <div className='col-span-3  h-screen pl-2 md:col-span-2'>
-              <Sidebar/>
+      <div className="flex">
+          <div className=''>
+                <Sidebar/>
+            </div>
+          <div className="bg-[#F4F4FE] w-full">
+            <Navbar />
+            <NavPage/>
           </div>
 
-
-          <div className='col-span-9 bg-[#F4F4FE] h-screen pl-2 md:col-span-10'>
-              <NavPage/>
-          </div>
-        </div>
-      </section>
+      </div>
     </React.Fragment>
   );
 };
