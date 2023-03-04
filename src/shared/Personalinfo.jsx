@@ -10,7 +10,7 @@ export default function Personalinfo() {
 
       <div>
         <p className="text-[16px]">Mr. Beleamri</p>
-        <p className="text-[12px] text-gray-500">Farmer</p>
+        <p className="text-[12px] text-gray-500">Admin</p>
       </div>
     </div>
   )

@@ -10,8 +10,8 @@ const Profile = () => {
     <React.Fragment>
       <div className='h-[100vh]'>
       <div className='absolute top-8 text-3xl font-semibold'>Profile</div>
-     <section>
-            <div className="flex flex-col justify-center items-center space-x-2 mt-6">
+     <section className='flex gap-11 justify-center'>
+        <div className="flex flex-col justify-center items-center space-x-2 mt-6">
           {/* avatar */}
           <div className="overflow-hidden rounded-full  bg-gray-200">
             <img src={admin} alt="" className='h-[150px] w-[150px]'/>
