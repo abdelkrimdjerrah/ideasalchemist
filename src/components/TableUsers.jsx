@@ -3,89 +3,36 @@ import React from 'react'
 export default function TableUsers() {
     const columns = [
         {
-          name:"Nom"
+          name:"First name"
         },
         {
-          name:"Prénom"
+          name:"Last name"
         },
         {
           name:"Email"
         },
         {
-          name:"Telephone"
+          name:"Phone"
         },
         {
-          name:"Privilège"
+          name:"Privilege"
         },
         {
-          name:"Accès"
+          name:"Access"
         }
       ]
     
       const data = [
-        {
-          id : "1",
-          nom : "Lorem ipsum",
-          prenom : "Lorem ipsum",
-          email : "Lorem ipsum",
-          telephone : "Lorem ipsum",
-          privilege : "Lorem ipsum",
-          acces : "Lorem ipsum",
-        },
-        {
-          id : "2",
-          nom : "Lorem ipsum",
-          prenom : "Lorem ipsum",
-          email : "Lorem ipsum",
-          telephone : "Lorem ipsum",
-          privilege : "Lorem ipsum",
-          acces : "Lorem ipsum",
-        },
-        {
-          id : "3",
-          nom : "Lorem ipsum",
-          prenom : "Lorem ipsum",
-          email : "Lorem ipsum",
-          telephone : "Lorem ipsum",
-          privilege : "Lorem ipsum",
-          acces : "Lorem ipsum",
-        },
-        {
-          id : "4",
-          nom : "Lorem ipsum",
-          prenom : "Lorem ipsum",
-          email : "Lorem ipsum",
-          telephone : "Lorem ipsum",
-          privilege : "Lorem ipsum",
-          acces : "Lorem ipsum",
-        },
-        {
-          id : "5",
-          nom : "Lorem ipsum",
-          prenom : "Lorem ipsum",
-          email : "Lorem ipsum",
-          telephone : "Lorem ipsum",
-          privilege : "Lorem ipsum",
-          acces : "Lorem ipsum",
-        },
-        {
-          id : "6",
-          nom : "Lorem ipsum",
-          prenom : "Lorem ipsum",
-          email : "Lorem ipsum",
-          telephone : "Lorem ipsum",
-          privilege : "Lorem ipsum",
-          acces : "Lorem ipsum",
-        },
-        {
-          id : "7",
-          nom : "Lorem ipsum",
-          prenom : "Lorem ipsum",
-          email : "Lorem ipsum",
-          telephone : "Lorem ipsum",
-          privilege : "Lorem ipsum",
-          acces : "Lorem ipsum",
-        },
+        {"id":"1","nom":"Mollis","prenom":"Phasellus","email":"phasellus.mollis@dictum.net","telephone":"1-850-526-1258","privilege":"admin","acces":"all"},
+{"id":"1","nom":"Curabitur","prenom":"Pellentesque","email":"pellentesque@vulputatevelit.edu","telephone":"1-606-962-2244","privilege":"admin","acces":"all"},
+{"id":"1","nom":"Velit","prenom":"Nunc","email":"nunc.velit@ipsumprimis.org","telephone":"1-302-347-8286","privilege":"admin","acces":"all"},
+{"id":"1","nom":"Venenatis","prenom":"Proin","email":"proin.venenatis@laciniaSed.net","telephone":"1-352-452-6174","privilege":"farmer","acces":"Limited"},
+{"id":"1","nom":"Ipsum","prenom":"Lacus","email":"lacus.ipsum@mauris.co.uk","telephone":"1-716-955-7382","privilege":"farmer","acces":"Limited"},
+{"id":"1","nom":"Nisi","prenom":"Aenean","email":"aenean.nisi@tristiquesenectus.ca","telephone":"1-651-467-8912","privilege":"farmer","acces":"Limited"},
+{"id":"1","nom":"Fringilla","prenom":"Lobortis","email":"lobortis.fringilla@metus.net","telephone":"1-563-619-2537","privilege":"farmer","acces":"Limited"},
+{"id":"1","nom":"Eros","prenom":"Suspendisse","email":"suspendisse.eros@viverra.net","telephone":"1-571-929-7446","privilege":"farmer","acces":"Limited"},
+{"id":"1","nom":"Elit","prenom":"Aliquet","email":"aliquet.elit@faucibus.net","telephone":"1-415-812-5683","privilege":"farmer","acces":"Limited"},
+{"id":"1","nom":"Tristique","prenom":"Vivamus","email":"vivamus.tristique@necanteMaecenas.org","telephone":"1-310-871-6152","privilege":"farmer","acces":"Limited"}
       ]
       return (
         <div className='w-full'>

@@ -6,23 +6,28 @@ export default function ZonesDistrubution(props) {
     const zones = [
         {
             id : "1",
-            name : "Zone A",
-            plant : "Tomatoes"
+            name : "A",
+            plant : "Potato"
         },
         {
             id : "2",
-            name : "Zone B",
-            plant : "Tomatoes"
+            name : "B",
+            plant : "Wheat"
         },
         {
             id : "3",
-            name : "Zone C",
-            plant : "Tomatoes"
+            name : "C",
+            plant : "Sunflowers"
         },
         {
             id : "4",
-            name : "Zone D",
-            plant : "Tomatoes"
+            name : "D",
+            plant : "Roses"
+        },
+        {
+            id : "5",
+            name : " D",
+            plant : "Lavender"
         }
     ]
    

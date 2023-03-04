@@ -4,7 +4,7 @@ import zoneB from '../assets/zoneB.svg'
 import zoneC from '../assets/zoneC.svg'
 import waterneeded from '../assets/waterneeded.svg'
 import soilmoisture from '../assets/soilmoisture.svg'
-import soil from '../assets/soil.svg'
+import soilanalysis from '../assets/soilanalysis.svg'
 import mapzoneA from '../assets/mapzoneA.svg'
 import lastspray from '../assets/lastspray.svg'
 import nextspray from '../assets/nextspray.svg'
@@ -52,7 +52,7 @@ const Zones = () => {
             </div>
             <div className='w-2/5'>
               <img src={mapzoneA} alt="" />
-              <img src={soil} alt="" />
+              <img src={soilanalysis} alt="" />
             </div>
         </div>
       </div>
