@@ -10,12 +10,12 @@ const Insights = () => {
     <div className='absolute top-8 text-3xl font-semibold'>Insights</div>
     <section>
     <div className=" text-4xl h-screen">
-      <img src={plotuse} className='mt-6'/>
+      <img src={plotuse} className='mt-6 w-full' draggable="false" />
       <div className='flex gap-6 justify-between w-full'>
           <TableInsights />
           <div className='flex flex-col gap-6 mt-6'>
-            <img src={cropsplanted} className='h-[80%]'/>
-            <img src={recommendedcrop} className='h-[80%]'/>
+            <img src={cropsplanted} className='h-[80%]' draggable="false"/>
+            <img src={recommendedcrop} className='h-[80%]' draggable="false"/>
           </div>
       </div>
     </div>

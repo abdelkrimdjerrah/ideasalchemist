@@ -13,7 +13,7 @@ const Users = () => {
     <section>
       <div className=" text-4xl h-screen">
         <div className='flex justify-between'>
-          <Button title = "Ajouter" color = "bg-[#2367FF]"/>
+          <Button title = "Ajouter" color = "bg-[#2367FF]" />
           <div className='flex gap-5'>
             <Button title = "Modifier" color = "bg-white" />
             <Button title = "Supprimer" color = "bg-[#EF4135]"/>
